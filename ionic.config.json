@@ -1,0 +1,8 @@
+{
+  "name": "tgsklp1",
+  "app_id": "d3c9a93e",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
