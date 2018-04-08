@@ -5,8 +5,9 @@
 
 <ion-list class="position">
 	<img ion-img height="200px" width="200px" src="assets/imgs/logo2.png"><br>
-	<button ion-button round class="btn-black" name="sent">Sent Files</button><br>
-	<button ion-button round>Receive files</button>
+
+	<button ion-button round class="btn-black" name="sent" (click)="gotoSent()" >Sent Files</button><br>
+	<button ion-button round class="btn-black" name="recip" (click)="gotoRecip()" >Recived Files</button>
 
 </ion-list>
 </ion-content>
